@@ -1,0 +1,17 @@
+{
+  "name": "gcp-image-uploader",
+  "version": "1.0.0",
+  "description": "Google Cloud Function to resize and upload images",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.0.0",
+    "@google-cloud/storage": "^5.8.5",
+    "sharp": "^0.29.3"
+  },
+  "scripts": {
+    "start": "functions-framework --target=resizeImage"
+  },
+  "engines": {
+    "node": "14"
+  }
+}
